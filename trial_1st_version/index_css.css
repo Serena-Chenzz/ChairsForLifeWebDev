@@ -1,0 +1,7 @@
+.resize{
+  padding: 20px;
+}
+.header-large{
+  background-image: url("background.jpg");
+  background-size: cover;
+}
