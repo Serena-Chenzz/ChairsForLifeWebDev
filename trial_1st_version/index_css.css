@@ -67,7 +67,7 @@ img.avatar {
 }
 
 /* Add padding to containers */
-.container {
+.container-login {
     padding: 16px;
 }
 
@@ -92,7 +92,7 @@ span.psw {
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 3; /* Sit on top */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -108,7 +108,7 @@ span.psw {
     background-color: #fefefe;
     margin: 5px auto; /* 15% from the top and centered */
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 30%; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button */
@@ -143,4 +143,8 @@ span.psw {
 @keyframes animatezoom {
     from {transform: scale(0)}
     to {transform: scale(1)}
+}
+
+span.psw{
+  padding-top: 8px;
 }

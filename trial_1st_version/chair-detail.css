@@ -1,0 +1,26 @@
+#main-page{
+  margin-top: 100px;
+}
+.monospaced {
+  font-family: 'Ubuntu Mono', monospaced ;
+}
+.add-to-cart .btn-qty {
+  width: 52px;
+  height: 46px;
+}
+
+.border-bottom{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cart-btn{
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.special-nav{
+  font-size: 1.2rem;
+  font-weight: 450;
+  line-height: 2rem;
+}
